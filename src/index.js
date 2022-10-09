@@ -4,8 +4,8 @@
 
 // image - https://openweathermap.org/img/wn/11n@2x.png
 
-import Data from './modules/api'
-import { header, ChangeCity, DetailsSection } from './modules/Doc'
+import { getData } from './modules/api'
+import { header, ChangeCity, DetailsSection, Footer } from './modules/Doc'
 
 header(); // Import Header in Html.
 (async function () {
