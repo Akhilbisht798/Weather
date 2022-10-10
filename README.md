@@ -7,7 +7,7 @@
 - Javascript
 - Html, css
 
-##Learning outcome.
+## Learning outcome.
 - async await
 - promise
 - api
