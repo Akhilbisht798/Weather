@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --popins: 'Poppins', sans-serif;
+}
+
+#Head {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #343a40;
+    padding: 0.6em;
+    font-family: var(--popins);
+}
+
+#Head_Icon_img {
+    width: 240px;
+    height: 150px;
+}
+
+.Search-bar {
+    width: 40%;
+}
+
+#Search_bar {
+    width: 70%;
+    padding: 0.4rem;
+}
+
+#Search_btn {
+    display: inline-block;
+    background-color: #eb6f4c;
+    color: white;
+    cursor: pointer;
+    width: 3.7rem;
+    text-align: center;
+    padding: 0.2rem;
+}

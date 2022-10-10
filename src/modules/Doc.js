@@ -19,10 +19,10 @@ function ChangeCity(obj, change) {
     let symbol = (change) ? " °C" : " K";
 
     div.innerHTML = `<div id="Left">
-                        <p id="city-name">${obj["name"]}</p>
-                        <p id="weather">${obj["weather"][0]["main"]}</p>
-                        <p id="temp">${Temp} ${symbol}</p>
-                        <p id="HLTemp">High: ${Max} ${symbol}, Low: ${Min} ${symbol}</p>
+                        <p id="city-name" class="details-W">${obj["name"]}</p>
+                        <p id="weather" class="details-W">${obj["weather"][0]["main"]}</p>
+                        <p id="temp" class="details-W">${Temp} ${symbol}</p>
+                        <p id="HLTemp" class="details-W">High: ${Max} ${symbol}, Low: ${Min} ${symbol}</p>
                     </div>
                     <div id="right">
                         <img src="${link}" alt="weather">
@@ -32,7 +32,7 @@ function ChangeCity(obj, change) {
 async function SerachCity() {
     let SearchBtn = document.getElementById("Search_btn");
     SearchBtn.addEventListener("click", (e) => {
-        GetValue()
+        GetValue(true)
     })
 }
 
@@ -62,8 +62,8 @@ function header() {
     div.innerHTML = `<div id="head_icon">
                         <img src="https://openweathermap.org/themes/openweathermap/assets/img/logo_white_cropped.png" alt="Logo" id="Head_Icon_img">
                     </div>
-                    <div class="Serach-bar">
-                        <input type="text" name="city_name" id="Search_bar">
+                    <div class="Search-bar">
+                        <input type="text" name="city_name" id="Search_bar" placeholder="Enter a city name">
                         <label for="city_name" id="Search_btn">Search</label>
                     </div>
                     <div>

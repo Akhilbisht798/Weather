@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --popins: 'Poppins', sans-serif;
+}
+
+#details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Left {
+    padding: 4em;
+}
+
+#city-name {
+    font-size: 4em;
+}
+
+#weather {
+    font-size: 1.7em;
+}
+
+#temp,
+#HLTemp {
+    font-size: 1.3em;
+}
+
+#right {
+    padding: 4em;
+}
