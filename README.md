@@ -1,6 +1,6 @@
 # Weather
 
-##Simple Weather Website to check weather of your city.
+## Simple Weather Website to check weather of your city.
 
 ## Technology Used
 - Webpack
