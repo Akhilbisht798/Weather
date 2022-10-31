@@ -1,4 +1,6 @@
-# Weather
+# Weather App
+
+[Live Preview](https://akhilbisht798.github.io/Weather/)
 
 ## Simple Weather Website to check weather of your city.
 
